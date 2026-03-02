@@ -16,6 +16,14 @@ install:
   - username_enumeration_prevention
   - flood_control
 config:
+  import:
+    captcha: '*'
+    recaptcha: '*'
+    honeypot: '*'
+    antibot: '*'
+    password_policy: '*'
+    seckit: '*'
+    flood_control: '*'
   actions:
     user.flood:
       simpleConfigUpdate:
@@ -24,21 +32,3 @@ config:
         ip_window: 1800
         user_limit: 4
         user_window: 1800
-    user.settings:
-      simpleConfigUpdate:
-        anonymous: Anonymous
-        verify_mail: true
-        notify:
-          cancel_confirm: true
-          password_reset: true
-          status_activated: true
-          status_blocked: false
-          status_canceled: false
-          register_admin_created: true
-          register_no_approval_required: true
-          register_pending_approval: true
-        register: admin_only
-        cancel_method: user_cancel_block
-        password_reset_timeout: 86400
-        password_strength: true
-        langcode: en
