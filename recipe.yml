@@ -32,3 +32,25 @@ config:
         ip_window: 1800
         user_limit: 4
         user_window: 1800
+    user.role.anonymous:
+      grantPermissions:
+        - 'use klaro'
+    user.role.authenticated:
+      grantPermissions:
+        - 'bypass honeypot protection'
+        - 'skip CAPTCHA'
+        - 'use klaro'
+    user.role.content_editor:
+      grantPermissions:
+        - 'skip antibot'
+    user.role.content_admin:
+      grantPermissions:
+        - 'skip antibot'
+    user.role.seo_admin:
+      grantPermissions:
+        - 'skip antibot'
+    user.role.site_admin:
+      grantPermissions:
+        - 'administer flood unblock'
+        - 'flood unblock ips'
+        - 'skip antibot'
