@@ -21,6 +21,7 @@
     "drupal/username_enumeration_prevention": "~1",
     "drupal/password_policy": "~4",
     "drupal/seckit": "~2",
+    "drupal/security_review": "~3",
     "drupal/honeypot": "~2",
     "drupal/antibot": "~2",
     "drupal/flood_control": "~3",
