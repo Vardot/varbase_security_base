@@ -28,5 +28,5 @@
     "drupal/captcha": "~2",
     "drupal/recaptcha": "~3"
   },
-  "version": "1.0.x-dev"
+  "version": "1.0.0-beta1"
 }
