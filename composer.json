@@ -26,7 +26,10 @@
     "drupal/antibot": "~2",
     "drupal/flood_control": "~3",
     "drupal/captcha": "~2",
-    "drupal/recaptcha": "~3"
+    "drupal/recaptcha": "~3",
+    "drupal/klaro": "~3",
+    "drupal/eca": "~3",
+    "drupal/modeler_api": "~1"
   },
   "version": "1.0.x-dev"
 }
